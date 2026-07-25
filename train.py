@@ -47,7 +47,6 @@ test = pd.read_csv('input/test.csv', header=None).values.astype(float)
 log.info('Train features : %s', str(train.shape))
 log.info('Test features  : %s', str(test.shape))
 log.info('Labels         : %s', dict(zip(*np.unique(y, return_counts=True))))
-log.info('Missing values : train=%d, test=%d', np.isnan(train).sum(), np.isnan(test).sum())
 
 # ============================================================================
 # 2. GMM 无监督特征提取

@@ -1,0 +1,25 @@
+# 竞赛数据
+input/
+output/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 环境
+.env
+.venv
+venv/
+
+# 编辑器
+.vscode/
+.idea/
+.ipynb_checkpoints/
+
+# CatBoost 临时文件
+catboost_info/
+
+# 其他
+*.log
+.DS_Store
